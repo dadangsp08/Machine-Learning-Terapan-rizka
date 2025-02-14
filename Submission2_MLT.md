@@ -8,19 +8,18 @@ Buku dianggap sebagai jendela dunia karena melalui buku, seseorang dapat menjela
 Untuk mengatasi permasalahan tersebut, proyek ini akan mengembangkan model sistem rekomendasi berbasis collaborative filtering guna menyarankan buku yang kemungkinan besar akan menarik minat pengguna. Collaborative filtering merupakan teknik yang digunakan untuk memberikan rekomendasi berdasarkan preferensi pengguna sebelumnya, di mana sistem tidak menggunakan konten buku secara langsung, melainkan menganalisis perilaku pengguna. Misalnya, rekomendasi dapat diberikan berdasarkan riwayat rating pengguna atau preferensi pengguna lain yang memiliki selera serupa [[4](https://medium.com/@ranggaantok/bagaimana-sistem-rekomendasi-berkerja-e749dac64816)]. Dengan adanya sistem rekomendasi ini, diharapkan pengguna dapat menemukan buku yang sesuai dengan minat mereka berdasarkan pola bacaan di masa lalu, termasuk buku-buku yang berpotensi mereka sukai tetapi belum pernah mereka baca sebelumnya.
 
 ## Business Understanding
-
 ### Problem Statements
+Berdasarkan uraian dalam Project Overview, terdapat beberapa permasalahan utama yang perlu diselesaikan dalam proyek ini, yaitu:
 
-Berdasarkan penjelasan pada project overview, berikut ini merupakan rincian masalah yang perlu diselesaikan di proyek ini:
-
--   Sistem rekomendasi apa yang baik untuk diterapkan pada kasus ini?
--   Bagaimana cara membuat sistem rekomendasi buku yang mungkin disukai dan belum pernah dibaca oleh pengguna?
+1. Sistem rekomendasi seperti apa yang paling sesuai untuk diterapkan pada kasus ini?
+2. Bagaimana cara membangun sistem rekomendasi buku yang dapat menyarankan bacaan yang menarik dan belum pernah dibaca oleh pengguna?
 
 ### Goals
 
-Tujuan dibuatnya proyek ini adalah sebagai berikut :
--   Membuat sistem rekomendasi buku sesuai dengan preferensi pengguna.
--   Memberikan rekomendasi buku yang mungkin disukai dan belum pernah dibaca oleh pengguna.
+Proyek ini bertujuan untuk:
+
+1. Mengembangkan sistem rekomendasi buku yang dapat menyesuaikan dengan preferensi pengguna.
+2. Menyediakan rekomendasi buku yang berpotensi menarik minat pengguna dan belum pernah mereka baca sebelumnya.
 
 ### Solution Approach
 
